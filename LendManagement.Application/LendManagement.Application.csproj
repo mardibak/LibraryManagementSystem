@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LendManagement.Application.Contracts\LendManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="..\LendManagement.Domain\LendManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
